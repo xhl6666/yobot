@@ -307,10 +307,7 @@ class Gacha:
 
     def execute(self, func_num: int, msg: dict):
         if func_num == 5:
-            return urljoin(
-                self.setting["public_address"],
-                '{}gacha/'.format(self.setting['public_basepath'])
-            )
+            return 'https://w.url.cn/s/APDQrBV'
         if ((
                 msg["message_type"] == "group"
                 and not self.setting.get("gacha_on", True))
